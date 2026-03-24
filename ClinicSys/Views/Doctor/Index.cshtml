@@ -1,0 +1,27 @@
+﻿@model List<Doctor>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Specialty</th>
+    </tr>
+
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Specialty</td>
+            <td>
+                <a class="btn btn-outline-warning" 
+                asp-action="edit" 
+                asp-route-id="@item.Id">
+                    edit
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<a class="btn btn-primary" 
+asp-action="Add">Create New</a>

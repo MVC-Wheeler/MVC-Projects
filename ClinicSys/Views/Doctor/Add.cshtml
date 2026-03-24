@@ -1,0 +1,10 @@
+﻿@model Doctor
+<form asp-action="Add" method="post" class="form-control">
+    <label>Name</label>
+    <input asp-for="@Model.Name"/>
+    <label>Specialty</label>
+    <input asp-for="@Model.Specialty" />
+
+    <button type="submit" class="btn btn-success">Save</button>
+
+</form>
