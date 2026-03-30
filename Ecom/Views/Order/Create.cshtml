@@ -1,0 +1,55 @@
+﻿@model Ecom.ViewModels.CreateOrderVM
+
+@{
+    ViewData["Title"] = "Create Order";
+}
+
+<h2>Create Order</h2>
+
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label>Customer</label>
+        <select asp-for="CustomerID" class="form-control"
+                asp-items="@(new SelectList(Model.Customers, "CustomerID", "Name"))">
+            <option value="">-- Select Customer --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Order Date</label>
+        <input asp-for="OrderDate" class="form-control" type="datetime-local" />
+    </div>
+
+    <div class="form-group">
+        <label>Total Amount</label>
+        <input asp-for="TotalAmount" class="form-control" />
+    </div>
+
+    <hr />
+
+    <h4>Products (Display only)</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.StockQuantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+</form>
