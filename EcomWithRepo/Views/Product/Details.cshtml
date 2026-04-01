@@ -1,0 +1,19 @@
+﻿@model Ecom.Models.Product
+
+<h2>Product Details</h2>
+
+<div>
+    <strong>Name:</strong> @Model.Name
+</div>
+<div>
+    <strong>Price:</strong> @Model.Price.ToString("C")
+</div>
+<div>
+    <strong>Stock:</strong> @Model.StockQuantity
+</div>
+<div>
+    <strong>Description:</strong> @Model.Description
+</div>
+<a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@Model.ProductID">Edit</a>
+<a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@Model.ProductID">Delete</a>
+<a class="btn btn-secondary" asp-action="Index">Back</a>

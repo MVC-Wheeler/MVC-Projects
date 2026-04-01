@@ -1,0 +1,30 @@
+﻿@model List<Product>
+<h2>Products</h2>
+<a class="btn btn-primary mb-2" asp-action="Create">Create New Product</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Price.ToString("C")</td>
+                <td>@p.StockQuantity</td>
+                <td>@p.Description</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-action="Details" asp-route-id="@p.ProductID">Details</a>
+                    <a class="btn btn-warning btn-sm" asp-action="Edit" asp-route-id="@p.ProductID">Edit</a>
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@p.ProductID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

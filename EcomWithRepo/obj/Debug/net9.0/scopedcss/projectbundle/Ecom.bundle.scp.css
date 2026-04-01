@@ -1,0 +1,49 @@
+/* _content/Ecom/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-aol2f34wwx] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-aol2f34wwx] {
+  color: #0077cc;
+}
+
+.btn-primary[b-aol2f34wwx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-aol2f34wwx], .nav-pills .show > .nav-link[b-aol2f34wwx] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-aol2f34wwx] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-aol2f34wwx] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-aol2f34wwx] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-aol2f34wwx] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-aol2f34wwx] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
