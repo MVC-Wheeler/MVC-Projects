@@ -1,15 +1,19 @@
-﻿using Ecom.Models;
+﻿using System.ComponentModel.DataAnnotations;
+using Ecom.Models;
 
 namespace Ecom.ViewModels
 {
+   
+
     public class CreateOrderVM
     {
+        [Required(ErrorMessage = "Please select a customer.")]
         public int CustomerID { get; set; }
+
         public DateTime? OrderDate { get; set; }
-        public decimal TotalAmount { get; set; }
 
-        public List<Customer>  ?Customers  { get; set; }
-        public List<Product>? Products { get; set; }
+        public List<Customer>? Customers { get; set; }
 
+        public List<OrderProductVM>? Products { get; set; }
     }
 }

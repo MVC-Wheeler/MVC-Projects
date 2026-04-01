@@ -1,11 +1,5 @@
 ﻿@model Ecom.ViewModels.CreateOrderVM
 
-@{
-    ViewData["Title"] = "Create Order";
-}
-
-<h2>Create Order</h2>
-
 <form asp-action="Create" method="post">
 
     <div class="form-group">
@@ -18,38 +12,34 @@
 
     <div class="form-group">
         <label>Order Date</label>
-        <input asp-for="OrderDate" class="form-control" type="datetime-local" />
+        <input asp-for="OrderDate" type="datetime-local" class="form-control" />
     </div>
 
-    <div class="form-group">
-        <label>Total Amount</label>
-        <input asp-for="TotalAmount" class="form-control" />
-    </div>
-
-    <hr />
-
-    <h4>Products (Display only)</h4>
-
+    <h4>Products</h4>
     <table class="table">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Price</th>
-                <th>Stock</th>
+                <th>Quantity</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var item in Model.Products)
+            @for (int i = 0; i < Model.Products.Count; i++)
             {
                 <tr>
-                    <td>@item.Name</td>
-                    <td>@item.Price</td>
-                    <td>@item.StockQuantity</td>
+                    <td>@Model.Products[i].ProductName</td>
+                    <td>@Model.Products[i].Price</td>
+                    <td>
+                        <input asp-for="Products[@i].Quantity" type="number" min="0" class="form-control" />
+                        <input asp-for="Products[@i].ProductID" type="hidden" />
+                        <input asp-for="Products[@i].Price" type="hidden" />
+                        <input asp-for="Products[@i].ProductName" type="hidden" />
+                    </td>
                 </tr>
             }
         </tbody>
     </table>
 
-    <button type="submit" class="btn btn-primary">Create</button>
-
+    <button type="submit" class="btn btn-primary">Create Order</button>
 </form>

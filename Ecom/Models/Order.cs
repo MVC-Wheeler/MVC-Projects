@@ -10,8 +10,8 @@ namespace Ecom.Models
         public DateTime? OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
 
-        public Customer Customer { get; set; } = new Customer();
-        public List<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+        public Customer ?Customer { get; set; } 
+        public List<OrderItem> ?OrderItems { get; set; } 
 
     }
 }

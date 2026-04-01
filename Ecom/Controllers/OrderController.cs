@@ -2,6 +2,7 @@
 using Ecom.Models;
 using Ecom.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Ecom.Controllers
 {
@@ -15,26 +16,32 @@ namespace Ecom.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var orders = _context.Orders
+                .Include(o => o.Customer)
+                .Include(o => o.OrderItems)
+                    .ThenInclude(oi => oi.Product)
+                .ToList();
+
+            return View(orders);
         }
-        // =========================
-        // GET: Create Order
-        // =========================
+        [HttpGet]
         public IActionResult Create()
         {
             var vm = new CreateOrderVM
             {
                 Customers = _context.Customers.ToList(),
-                Products = _context.Products.ToList(),
+                Products = _context.Products.Select(p => new OrderProductVM
+                {
+                    ProductID = p.ProductID,
+                    ProductName = p.Name,
+                    Price = p.Price,
+                    Quantity = 0 // default
+                }).ToList(),
                 OrderDate = DateTime.Now
             };
-
             return View(vm);
         }
 
-        // =========================
-        // POST: Create Order
-        // =========================
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(CreateOrderVM vm)
@@ -42,7 +49,13 @@ namespace Ecom.Controllers
             if (!ModelState.IsValid)
             {
                 vm.Customers = _context.Customers.ToList();
-                vm.Products = _context.Products.ToList();
+                vm.Products = _context.Products.Select(p => new OrderProductVM
+                {
+                    ProductID = p.ProductID,
+                    ProductName = p.Name,
+                    Price = p.Price,
+                    Quantity = 0
+                }).ToList();
                 return View(vm);
             }
 
@@ -50,13 +63,21 @@ namespace Ecom.Controllers
             {
                 CustomerID = vm.CustomerID,
                 OrderDate = vm.OrderDate ?? DateTime.Now,
-                TotalAmount = vm.TotalAmount
+                TotalAmount = vm.Products.Where(p => p.Quantity > 0).Sum(p => p.Price * p.Quantity),
+                OrderItems = vm.Products
+                    .Where(p => p.Quantity > 0)
+                    .Select(p => new OrderItem
+                    {
+                        ProductID = p.ProductID,
+                        Quantity = p.Quantity,
+                        UnitPrice = p.Price
+                    }).ToList()
             };
 
             _context.Orders.Add(order);
             _context.SaveChanges();
 
-            return RedirectToAction("Index"); 
+            return RedirectToAction("Index");
         }
     }
 }

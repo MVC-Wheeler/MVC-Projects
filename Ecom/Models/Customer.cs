@@ -9,7 +9,7 @@ namespace Ecom.Models
         public string Name { get; set; }
         public string? Email { get; set; }
 
-        public List<Order> Orders { get; set; } = new List<Order>();
+        public List<Order> ?Orders { get; set; }
 
     }
 }
