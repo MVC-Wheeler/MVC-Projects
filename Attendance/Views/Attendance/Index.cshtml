@@ -1,0 +1,53 @@
+﻿@using Attendance.ViewModel
+@model AttendanceVM
+
+<h2>Attendance</h2>
+
+<form method="get" asp-action="Index">
+
+    <select asp-for="StudentId">
+        <option value="">All Students</option>
+
+        @foreach (var s in Model.Students)
+        {
+            <option value="@s.StudentId">@s.Name</option>
+        }
+       
+    </select>
+
+    <select asp-for="SubjectId">
+        <option value="">All Subjects</option>
+        @foreach (var sub in Model.Subjects)
+        {
+            <option value="@sub.SubjectId">@sub.Name</option>
+        }
+    </select>
+
+    <button type="submit">Filter</button>
+</form>
+
+<a class=" btn btn-primary" href="/Attendance/Create">Add Attendance</a>
+
+<table border="1">
+    <tr>
+        <th>Student</th>
+        <th>Subject</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var a in Model.Attendances)
+    {
+        <tr>
+            <td>@a.Student.Name</td>
+            <td>@a.Subject.Name</td>
+            <td>@a.Date.ToShortDateString()</td>
+            <td>@a.Status</td>
+            <td>
+                <a href="/Attendance/Edit/@a.AttendanceMId">Edit</a>
+                <a href="/Attendance/Delete/@a.AttendanceMId">Delete</a>
+            </td>
+        </tr>
+    }
+</table>

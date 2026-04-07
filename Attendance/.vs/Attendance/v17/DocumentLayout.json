@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mai\\web API\\Repos\\Attendance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\repositories\\implementations\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:repositories\\implementations\\attendancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\viewmodel\\attendancevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:viewmodel\\attendancevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\attendance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:attendance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|d:\\mai\\web api\\repos\\attendance\\migrations\\20260406053310_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A59149A9-6509-439A-BA71-3EA7B0064B45}|Attendance.csproj|solutionrelative:migrations\\20260406053310_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T09:52:52.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Attendance\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Create.cshtml",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Attendance\\Create.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-06T09:52:29.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Models\\Attendance.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Models\\Attendance.cs",
+              "RelativeToolTip": "Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:37:27.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceVM.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\ViewModel\\AttendanceVM.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AttendanceVM.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\ViewModel\\AttendanceVM.cs",
+              "RelativeToolTip": "ViewModel\\AttendanceVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:37:05.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttendanceRepository.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Repositories\\Implementations\\AttendanceRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\AttendanceRepository.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Repositories\\Implementations\\AttendanceRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\AttendanceRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T07:32:00.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attendance\\Index.cshtml",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-06T07:27:54.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttendanceController.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T05:36:33.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-06T05:35:55.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T05:35:36.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260406053310_init.cs",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Migrations\\20260406053310_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260406053310_init.cs",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Migrations\\20260406053310_init.cs",
+              "RelativeToolTip": "Migrations\\20260406053310_init.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T05:33:10.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T05:32:31.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attendance.csproj",
+              "DocumentMoniker": "D:\\Mai\\web API\\Repos\\Attendance\\Attendance.csproj",
+              "RelativeDocumentMoniker": "Attendance.csproj",
+              "ToolTip": "D:\\Mai\\web API\\Repos\\Attendance\\Attendance.csproj",
+              "RelativeToolTip": "Attendance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-06T05:30:53.584Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

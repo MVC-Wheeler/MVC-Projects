@@ -1,0 +1,33 @@
+﻿@using Attendance.ViewModel
+@model AttendanceVM
+
+<h2>Edit Attendance</h2>
+
+<form method="post">
+
+    <input type="hidden" asp-for="AttendanceId" />
+
+    <select asp-for="StudentId">
+        @foreach (var s in Model.Students)
+        {
+            <option value="@s.StudentId">@s.Name</option>
+        }
+    </select>
+
+    <select asp-for="SubjectId">
+        @foreach (var sub in Model.Subjects)
+        {
+            <option value="@sub.SubjectId">@sub.Name</option>
+        }
+    </select>
+
+    <input asp-for="Date" type="date" />
+
+    <select asp-for="Status">
+        <option>Present</option>
+        <option>Absent</option>
+    </select>
+
+    <button type="submit">Update</button>
+
+</form>
